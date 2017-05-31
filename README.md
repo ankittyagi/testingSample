@@ -16,5 +16,39 @@ Before we talk about Enzyme and Jest, we should understand a few terms related t
 ##### Mocking library
 - Facilitates the usage of mocks in unit testing. Sinon and TestDouble are commonly used JavaScript mocking libraries.
 
+### Enzyme and JEST
+- Enzyme is a testing library to render the react component into the DOM and query the DOM tree. Its a testing utility for React that makes it easier to assert, manipulate, and traverse your React Components’ output.
+- Jest is a unit testing framework and has a test runner, assertion library, and mocking support.
 
-Cheers
+
+From react-native 0.38 jest default setup included in the base project.
+To test this, run npm test and Jest is up and running
+```
+npm test
+```
+### Commands Used
+
+#### Commit: initial commit aaded vanilla react native code and readme file
+```
+react-native run-ios
+```
+#### Commit : install jest run, enzyme and other dependencies
+```
+npm i --save-dev jest
+npm i --save-dev jest-cli
+npm i --save-dev enzyme
+npm i --save-dev react-addons-test-utils
+npm i --save-dev react-dom
+```
+#### Commit 2 : added flow for type checking
+```
+https://medium.com/react-native-training/getting-started-with-react-native-and-flow-d40f55746809
+```
+#### Commit 3 : added redux, react-redux, redux-thunk and redux-logger libraries
+```
+npm install --save redux
+npm install --save react-redux
+npm install --save redux-thunk
+npm install --save redux-logger
+```
+**Cheers!**
