@@ -40,15 +40,4 @@ npm i --save-dev enzyme
 npm i --save-dev react-addons-test-utils
 npm i --save-dev react-dom
 ```
-#### Commit 2 : added flow for type checking
-```
-https://medium.com/react-native-training/getting-started-with-react-native-and-flow-d40f55746809
-```
-#### Commit 3 : added redux, react-redux, redux-thunk and redux-logger libraries
-```
-npm install --save redux
-npm install --save react-redux
-npm install --save redux-thunk
-npm install --save redux-logger
-```
 **Cheers!**
