@@ -40,4 +40,9 @@ npm i --save-dev enzyme
 npm i --save-dev react-addons-test-utils
 npm i --save-dev react-dom
 ```
+#### Commit : Added simple average component and its tests
+To run tests
+```
+npm test
+```
 **Cheers!**
